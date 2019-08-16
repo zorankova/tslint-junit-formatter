@@ -2,7 +2,7 @@ import * as ts from 'typescript';
 import * as NodeUnit from 'nodeunit';
 import * as Lint from 'tslint';
 import * as dedent from 'dedent';
-import { Formatter } from './junitFormatter';
+import { Formatter } from './customJunitFormatter';
 
 export const formatterTests: NodeUnit.ITestGroup = {
     "zero failures": (test: NodeUnit.Test) => {

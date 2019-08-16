@@ -2,10 +2,10 @@
   "name": "tslint-junit-formatter-forked",
   "version": "5.1.0",
   "description": "JUnit XML formatter for TSlint.",
-  "main": "formatters/junitFormatter.js",
+  "main": "formatters/customJunitFormatter.js",
   "scripts": {
     "build": "tsc",
-    "test": "nodeunit formatters/junitFormatter.test.js",
+    "test": "nodeunit formatters/customJunitFormatter.test.js",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -34,5 +34,8 @@
     "dedent-js": "^1.0.1",
     "nodeunit": "^0.11.1",
     "typescript": "^2.3.0"
+  },
+  "dependencies": {
+    "tslint": "^5.18.0"
   }
 }

@@ -4,7 +4,7 @@
     "module": "commonjs"
   },
   "files": [
-    "formatters/junitFormatter.ts",
-    "formatters/junitFormatter.test.ts"
+    "formatters/customJunitFormatter.ts",
+    "formatters/customJunitFormatter.test.ts"
   ]
 }
