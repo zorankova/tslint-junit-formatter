@@ -1,0 +1,43 @@
+{
+  "name": "tslint-junit-formatter-forked",
+  "version": "5.1.2",
+  "description": "JUnit XML formatter for TSlint.",
+  "main": "formatters/customJunitFormatter.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "nodeunit formatters/customJunitFormatter.test.js",
+    "prepublish": "npm run build",
+    "publish": "publish-to-git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zorankova/tslint-junit-formatter-forked"
+  },
+  "keywords": [
+    "tslint",
+    "junit",
+    "formatter"
+  ],
+  "author": "Josef Krentz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorankova/tslint-junit-formatter-forked/issues"
+  },
+  "homepage": "https://github.com/zorankova/tslint-junit-formatter-forked#readme",
+  "peerDependencies": {
+    "tslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/dedent": "^0.7.0",
+    "@types/es6-shim": "^0.31.34",
+    "@types/node": "^7.0.16",
+    "@types/nodeunit": "^0.0.30",
+    "dedent-js": "^1.0.1",
+    "nodeunit": "^0.11.1",
+    "publish-to-git": "^1.1.7",
+    "typescript": "^2.3.0"
+  },
+  "dependencies": {
+    "tslint": "^5.18.0"
+  }
+}
